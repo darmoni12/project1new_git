@@ -58,7 +58,7 @@ namespace DAL
 
         public List<GuestRequest> getAllGuestRequest()
         {
-            return new List<GuestRequest>(requestsList);///
+            return new List<GuestRequest>(requestsList);/////
         }
 
         public List<Order> getAllOrder()
